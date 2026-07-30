@@ -23,6 +23,7 @@ Thumbs.db
 # Local extract / vendor scratch (not part of the release)
 _vendor/
 _paper_extract.txt
+.gh-config/
 
 # Jupyter
 .ipynb_checkpoints/

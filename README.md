@@ -93,7 +93,7 @@ Keep the `split_data` flag **consistent** across all four scripts.
 ## Installation
 
 ```bash
-git clone https://github.com/<YOUR_USER>/inter_frame_forgery_detection.git
+git clone https://github.com/baheesa/inter_frame_forgery_detection.git
 cd inter_frame_forgery_detection
 
 python -m venv .venv
