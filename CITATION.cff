@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: If you use this software, please cite the paper below.
+type: software
+title: "Enhanced inter-frame video forgery detection using convolutional network and stacking ensemble"
+authors:
+  - family-names: Fatima
+    given-names: Baheesa
+    orcid: "https://orcid.org/0009-0003-2757-5672"
+  - family-names: Bakhshi
+    given-names: Asim Dilawar
+  - family-names: Ghafoor
+    given-names: Abdul
+repository-code: "https://github.com/baheesa/inter_frame_forgery_detection"
+url: "https://doi.org/10.1007/s11042-026-21684-x"
+license: Other
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Fatima
+      given-names: Baheesa
+      orcid: "https://orcid.org/0009-0003-2757-5672"
+    - family-names: Bakhshi
+      given-names: Asim Dilawar
+    - family-names: Ghafoor
+      given-names: Abdul
+  title: "Enhanced inter-frame video forgery detection using convolutional network and stacking ensemble"
+  journal: "Multimedia Tools and Applications"
+  year: 2026
+  volume: 85
+  pages: "497"
+  doi: "10.1007/s11042-026-21684-x"

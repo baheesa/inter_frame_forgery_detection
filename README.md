@@ -1,26 +1,52 @@
+<div align="center">
+
 # Enhanced Inter-Frame Video Forgery Detection
+### Convolutional network · Stacking ensemble
 
-<p align="center">
-  <em>Convolutional network + stacking ensemble · Multimedia Tools and Applications (2026)</em>
-</p>
+Python code from our Springer paper (*Multimedia Tools and Applications*, 2026)
 
-<p align="center">
-  <a href="https://link.springer.com/article/10.1007/s11042-026-21684-x"><img src="https://img.shields.io/badge/Paper-Springer-0F4C81?style=for-the-badge&logo=springer&logoColor=white" alt="Paper"/></a>
-  <a href="https://doi.org/10.1007/s11042-026-21684-x"><img src="https://img.shields.io/badge/DOI-10.1007%2Fs11042--026--21684--x-blue?style=for-the-badge" alt="DOI"/></a>
-</p>
+<br/>
 
-<p align="center">
-  <a><img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></a>
-  <a><img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/></a>
-  <a><img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/></a>
-  <a><img src="https://img.shields.io/badge/scikit--learn-1.x-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="sklearn"/></a>
-</p>
+[![Paper](https://img.shields.io/badge/Paper-Springer-0F4C81?style=flat-square)](https://link.springer.com/article/10.1007/s11042-026-21684-x)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs11042--026--21684--x-blue?style=flat-square)](https://doi.org/10.1007/s11042-026-21684-x)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/)
 
 Editors can alter a video’s timeline by inserting, deleting, or duplicating frames — often with further post-processing so the cut is hard to see. This codebase implements a five-stage pipeline that flags those temporal forgeries in both static and dynamic clips, and classifies each video as **original**, **frame-insertion**, **frame-deletion**, or **frame-duplication**.
 
-**Paper:** Fatima, B., Bakhshi, A.D. & Ghafoor, A. — [*Enhanced inter-frame video forgery detection using convolutional network and stacking ensemble*](https://link.springer.com/article/10.1007/s11042-026-21684-x). *Multimed Tools Appl* **85**, 497 (2026).
+<br/>
+
+[LinkedIn](https://www.linkedin.com/in/baheesafatima/)
+·
+[ResearchGate](https://www.researchgate.net/profile/Baheesa-Fatima-2)
+·
+[ORCID](https://orcid.org/0009-0003-2757-5672)
+·
+[Email](mailto:baheesafatima@gmail.com)
+
+</div>
+
+**Keywords:** inter-frame video forgery detection · video forgery detection · digital video forensics · frame insertion · frame deletion · frame duplication · temporal forgery · stacking ensemble · temporal convolutional network · TCN · optical flow · HOG · edge difference · multimedia forensics · passive forensics · video tampering detection · TensorFlow · OpenCV · VFD · TDTVD · VIFFD
+
+---
+
+## What this is
+
+Editors can alter a video’s timeline by **inserting**, **deleting**, or **duplicating** frames — often with further post-processing so the cut is hard to see. That kind of edit is called **inter-frame video forgery** (also temporal forgery or video tampering).
+
+This repository is the official Python implementation of our paper on **inter-frame video forgery detection** and classification:
+
+> Fatima, B., Bakhshi, A.D. & Ghafoor, A. (2026).  
+> [*Enhanced inter-frame video forgery detection using convolutional network and stacking ensemble*](https://link.springer.com/article/10.1007/s11042-026-21684-x).  
+> *Multimedia Tools and Applications*, **85**, 497.  
+> DOI: [10.1007/s11042-026-21684-x](https://doi.org/10.1007/s11042-026-21684-x)
+
+The five-stage pipeline flags temporal forgeries in both static and dynamic clips, and classifies each video as **original**, **frame-insertion**, **frame-deletion**, or **frame-duplication**.
 
 **Reported F1-scores:** VFD **0.994** · TDTVD **0.975** · VIFFD **0.940**
+
+If you use this code or method in your own work, a citation means a lot — thank you.
 
 ---
 
@@ -29,7 +55,7 @@ Editors can alter a video’s timeline by inserting, deleting, or duplicating fr
 The approach combines classical video cues with deep temporal encoding and an ensemble classifier:
 
 <p align="center">
-  <img src="assets/method_diagram.png" alt="Fig. 1 — Proposed method" width="100%"/>
+  <img src="assets/method_diagram.png" alt="Inter-frame video forgery detection pipeline: preprocessing, edge difference optical flow HOG features, TCN encoding, stacking ensemble classification, and forgery localisation" width="100%"/>
 </p>
 
 <p align="center"><sub>Fig. 1 from the paper — preprocessing, feature extraction, TCN encoding, stacking classification, and localisation.</sub></p>
@@ -91,7 +117,7 @@ python ensemble_class.py        # train / evaluate the stacking ensemble
 
 ## Datasets
 
-Evaluated on three public benchmarks:
+Evaluated on three public **video forgery detection** benchmarks:
 
 | Dataset | Link | Notes |
 |---------|------|-------|
