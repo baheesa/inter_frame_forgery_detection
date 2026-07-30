@@ -213,7 +213,7 @@ National University of Sciences and Technology (NUST), Islamabad, Pakistan
 
 - Email: [baheesafatima@gmail.com](mailto:baheesafatima@gmail.com) · [bfatima.phdsemcs@student.nust.edu.pk](mailto:bfatima.phdsemcs@student.nust.edu.pk)
 - LinkedIn: [linkedin.com/in/baheesafatima](https://www.linkedin.com/in/baheesafatima/)
-- ResearchGate: [researchgate.net/profile/Baheesa-Fatima](https://www.researchgate.net/profile/Baheesa-Fatima-2)
+- ResearchGate: [researchgate.net/profile/Baheesa-Fatima-2](https://www.researchgate.net/profile/Baheesa-Fatima-2)
 - ORCID: [0009-0003-2757-5672](https://orcid.org/0009-0003-2757-5672)
 
 **Asim Dilawar Bakhshi** (corresponding) — [asim.dilawar@mcs.edu.pk](mailto:asim.dilawar@mcs.edu.pk)  
