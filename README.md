@@ -207,13 +207,13 @@ National University of Sciences and Technology (NUST), Islamabad, Pakistan
   <a href="mailto:baheesafatima@gmail.com"><img src="https://img.shields.io/badge/Email-baheesafatima%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
   <a href="mailto:bfatima.phdsemcs@student.nust.edu.pk"><img src="https://img.shields.io/badge/Email-NUST-1B5E20?style=flat-square&logo=gmail&logoColor=white" alt="NUST email"/></a>
   <a href="https://www.linkedin.com/in/baheesafatima/"><img src="https://img.shields.io/badge/LinkedIn-baheesafatima-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://www.researchgate.net/profile/Baheesa-Fatima"><img src="https://img.shields.io/badge/ResearchGate-Profile-00CCBB?style=flat-square&logo=researchgate&logoColor=white" alt="ResearchGate"/></a>
+  <a href="https://www.researchgate.net/profile/Baheesa-Fatima-2"><img src="https://img.shields.io/badge/ResearchGate-Profile-00CCBB?style=flat-square&logo=researchgate&logoColor=white" alt="ResearchGate"/></a>
   <a href="https://orcid.org/0009-0003-2757-5672"><img src="https://img.shields.io/badge/ORCID-0009--0003--2757--5672-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
 </p>
 
 - Email: [baheesafatima@gmail.com](mailto:baheesafatima@gmail.com) · [bfatima.phdsemcs@student.nust.edu.pk](mailto:bfatima.phdsemcs@student.nust.edu.pk)
 - LinkedIn: [linkedin.com/in/baheesafatima](https://www.linkedin.com/in/baheesafatima/)
-- ResearchGate: [researchgate.net/profile/Baheesa-Fatima](https://www.researchgate.net/profile/Baheesa-Fatima)
+- ResearchGate: [researchgate.net/profile/Baheesa-Fatima](https://www.researchgate.net/profile/Baheesa-Fatima-2)
 - ORCID: [0009-0003-2757-5672](https://orcid.org/0009-0003-2757-5672)
 
 **Asim Dilawar Bakhshi** (corresponding) — [asim.dilawar@mcs.edu.pk](mailto:asim.dilawar@mcs.edu.pk)  
