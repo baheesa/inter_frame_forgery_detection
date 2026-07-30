@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Outputs & artefacts
+output/
+ablation_results/
+*.npy
+*.pkl
+*.h5
+*.ckpt
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local extract / vendor scratch (not part of the release)
+_vendor/
+_paper_extract.txt
+
+# Jupyter
+.ipynb_checkpoints/
