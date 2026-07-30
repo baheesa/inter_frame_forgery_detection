@@ -16,8 +16,6 @@
   <a><img src="https://img.shields.io/badge/scikit--learn-1.x-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="sklearn"/></a>
 </p>
 
-Official implementation of our paper on **inter-frame video forgery detection**.
-
 Editors can alter a video’s timeline by inserting, deleting, or duplicating frames — often with further post-processing so the cut is hard to see. This codebase implements a five-stage pipeline that flags those temporal forgeries in both static and dynamic clips, and classifies each video as **original**, **frame-insertion**, **frame-deletion**, or **frame-duplication**.
 
 **Paper:** Fatima, B., Bakhshi, A.D. & Ghafoor, A. — [*Enhanced inter-frame video forgery detection using convolutional network and stacking ensemble*](https://link.springer.com/article/10.1007/s11042-026-21684-x). *Multimed Tools Appl* **85**, 497 (2026).
