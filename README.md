@@ -1,4 +1,4 @@
-# Enhanced Inter-Frame Video Forgery Detection
+# Enhanced inter-frame video forgery detection using convolutional network and stacking ensemble
 
 <p align="center">
   <em>Convolutional network + stacking ensemble · Multimedia Tools and Applications (2026)</em>
