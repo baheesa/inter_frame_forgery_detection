@@ -12,11 +12,12 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
-  <img src="https://img.shields.io/badge/scikit--learn-1.x-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="sklearn"/>
-  <img src="https://img.shields.io/badge/NUST-Islamabad-1B5E20?style=flat-square" alt="NUST"/>
+  <!-- Empty <a> wrappers stop GitHub from opening the badge SVG on click -->
+  <a><img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></a>
+  <a><img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/></a>
+  <a><img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/></a>
+  <a><img src="https://img.shields.io/badge/scikit--learn-1.x-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="sklearn"/></a>
+  <a><img src="https://img.shields.io/badge/NUST-Islamabad-1B5E20?style=flat-square" alt="NUST"/></a>
 </p>
 
 ---
