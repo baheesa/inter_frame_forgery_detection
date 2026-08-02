@@ -13,8 +13,6 @@ Python code from our Springer paper (*Multimedia Tools and Applications*, 2026)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/)
 
-Video data is vulnerable to inter-frame forgeries using editing tools like Adobe Premiere Pro. These manipulations can distort or conceal events, compromising the integrity of video evidence. Current inter-frame forgery detection methods often struggle to capture all forgery types, video formats and also lack generalisability due to training on self-created data. This work proposes an inter-frame video forgery detection technique that overcomes these challenges through a five-stage process. Firstly, the video frames are preprocessed to remove post-manipulation effects. Secondly, the spatial and temporal features (such as frame edge difference, optical flow and histogram of oriented gradients) are extracted to capture edge, motion and structure. Next, the temporal convolutional network uses these features to capture long-range dependencies and inconsistencies in the temporal domain. Afterwards, the stacking ensemble method is employed which uses random forest, gradient boosting, support vector machine and k-nearest neighbours with a logistic regression meta-classifier. Lastly, wavelet histogram difference followed by Otsu’s thresholding is used to localise the forgery area. The technique identifies and localises frame-insertion, frame-deletion and frame-duplication forgeries in both static and dynamic video content. It also detects multiple inter-frame forgeries and achieves F1-scores of 0.994, 0.975 and 0.940 on the publicly available datasets VFD, TDTVD and VIFFD. These results demonstrate consistent performance across datasets with varied resolutions, frame rates and compression levels. This suggests potential robustness to format and compression differences.
-
 <br/>
 
 [LinkedIn](https://www.linkedin.com/in/baheesafatima/)
@@ -27,26 +25,22 @@ Video data is vulnerable to inter-frame forgeries using editing tools like Adobe
 
 </div>
 
+Video data is vulnerable to inter-frame forgeries using editing tools like Adobe Premiere Pro. These manipulations can distort or conceal events, compromising the integrity of video evidence. Current inter-frame forgery detection methods often struggle to capture all forgery types, video formats and also lack generalisability due to training on self-created data. This work proposes an inter-frame video forgery detection technique that overcomes these challenges through a five-stage process. Firstly, the video frames are preprocessed to remove post-manipulation effects. Secondly, the spatial and temporal features (such as frame edge difference, optical flow and histogram of oriented gradients) are extracted to capture edge, motion and structure. Next, the temporal convolutional network uses these features to capture long-range dependencies and inconsistencies in the temporal domain. Afterwards, the stacking ensemble method is employed which uses random forest, gradient boosting, support vector machine and k-nearest neighbours with a logistic regression meta-classifier. Lastly, wavelet histogram difference followed by Otsu’s thresholding is used to localise the forgery area. The technique identifies and localises frame-insertion, frame-deletion and frame-duplication forgeries in both static and dynamic video content. It also detects multiple inter-frame forgeries and achieves F1-scores of 0.994, 0.975 and 0.940 on the publicly available datasets VFD, TDTVD and VIFFD. These results demonstrate consistent performance across datasets with varied resolutions, frame rates and compression levels. This suggests potential robustness to format and compression differences.
+
 **Keywords:** inter-frame video forgery detection · temporal convolutional network · stacking ensemble
 
 ---
 
 ## What this is
 
-Editors can alter a video’s timeline by **inserting**, **deleting**, or **duplicating** frames — often with further post-processing so the cut is hard to see. That kind of edit is called **inter-frame video forgery** (also temporal forgery or video tampering).
-
-This repository is the official Python implementation of our paper on **inter-frame video forgery detection** and classification:
+Official Python implementation of:
 
 > Fatima, B., Bakhshi, A.D. & Ghafoor, A. (2026).  
 > [*Enhanced inter-frame video forgery detection using convolutional network and stacking ensemble*](https://link.springer.com/article/10.1007/s11042-026-21684-x).  
 > *Multimedia Tools and Applications*, **85**, 497.  
 > DOI: [10.1007/s11042-026-21684-x](https://doi.org/10.1007/s11042-026-21684-x)
 
-The five-stage pipeline flags temporal forgeries in both static and dynamic clips, and classifies each video as **original**, **frame-insertion**, **frame-deletion**, or **frame-duplication**.
-
-**Reported F1-scores:** VFD **0.994** · TDTVD **0.975** · VIFFD **0.940**
-
-If you use this code or method in your own work, a citation means a lot — thank you.
+Please cite the paper if you use this work.
 
 ---
 
