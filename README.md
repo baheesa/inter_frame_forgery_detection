@@ -27,7 +27,7 @@ Editors can alter a video’s timeline by inserting, deleting, or duplicating fr
 
 </div>
 
-**Keywords:** inter-frame video forgery detection · video forgery detection · digital video forensics · frame insertion · frame deletion · frame duplication · temporal forgery · stacking ensemble · temporal convolutional network · TCN · optical flow · HOG · edge difference · multimedia forensics · passive forensics · video tampering detection · TensorFlow · OpenCV · VFD · TDTVD · VIFFD
+**Keywords:** inter-frame video forgery detection · temporal convolutional network · stacking ensemble
 
 ---
 
